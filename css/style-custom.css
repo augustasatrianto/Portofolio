@@ -375,3 +375,17 @@ footer .social-icons a {
     text-decoration: none;
     color: #fff;
 }
+
+h5 {
+    color:#42446E;
+}
+
+/* Batas */
+.text-base{font-size:1rem;line-height:1.5rem}
+.font-bold{font-weight:700}
+.text-primary{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}
+
+
+.w-full{width:100%}
+.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}
+rounded-md{border-radius:.375rem}

@@ -11,9 +11,52 @@
     <link rel="stylesheet" href="css/style-custom.css">
 
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #13B0F5;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.25em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #7864D1;
+}
+
+    </style>
 </head>
 
 <body>
+    
+      
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#" style="color:#42446E;">Augusta S<span class="dot">.</span></a>
@@ -36,7 +79,7 @@
                         <a class="nav-link" href="#work">Work</a>
                     </li>
                 </ul>
-                <a href="#home" class="btn btn-brand ms-lg-3">Contact</a>
+                <a href="#contact" class="btn btn-brand ms-lg-3">Contact</a>
             </div>
         </div>
     </nav>
@@ -64,7 +107,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>About</h1>
+                        <h1 style="color:#42446E;">About</h1>
                     </div>
                 </div>
             </div>
@@ -74,23 +117,22 @@
                         <div class="image">
                             <img src="img/aan.jpg" alt="">
                             <div class="social-icons">
-                                <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-twitter'></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
-                                <a href="#"><i class='bx bxl-pinterest'></i></a>
+                                <a href="https://www.facebook.com/augusta.satrianto"><i class='bx bxl-facebook'></i></a>
+                                <a href="https://www.instagram.com/augusta_strn/"><i class='bx bxl-instagram'></i></a>
+                                <a href="https://github.com/augustasatrianto"><i class='bx bxl-github'></i></a>
                             </div>
                             <div class="overlay"></div>
                         </div>
 
-                        <h5>Augusta Satrianto</h5>
-                        <p>Sampang, Jawa Timur</p>
+                        <h5 style="color:#42446E;">Augusta Satrianto</h5>
+                        <p style="color:#42446E;">Sampang, Jawa Timur</p>
                     </div>
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6 col-md-8">
                     <div class="pt-lg-4 ">
-                        <h3>I am Augusta Satrianto</h3>
-                        <p class="mx-auto">I born in Klaten on August 27, 2002. I am 20
+                        <h3 style="color:#42446E;">I am Augusta Satrianto</h3>
+                        <p class="mx-auto" style="color:#42446E;">I born in Klaten on August 27, 2002. I am 20
                             years old. Now I'm studying at the State University of Surabaya majoring in Sistem Informasi. My habit is facing the computer to write several programs. I like to learn new
                             things about the computer world. Not only computers, I am also interested in science and
                             knowledge in this world.</p>
@@ -105,7 +147,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>Skills</h1>
+                        <h1 style="color:#42446E;">Skills</h1>
                     </div>
                 </div>
             </div>
@@ -159,7 +201,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>Work</h1>
+                        <h1 style="color:#42446E;">Work</h1>
                     </div>
                 </div>
             </div>
@@ -254,6 +296,32 @@
         </div>
     </section>
 
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h1 style="color:#42446E;">Contact</h1>
+                    </div>
+                </div>
+            </div>
+    
+            <form  action="https://formspree.io/f/mzbqzrpg" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+              
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+              
+                <input type="submit" value="Send">
+            </form>
+        </div>  
+    </section>
+   
+
     <footer>
         <div class="footer-top text-center">
             <div class="container">
@@ -263,9 +331,9 @@
                         <!-- <p style="color:#42446E;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s,</p> -->
                         <div class="col-auto social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://www.facebook.com/augusta.satrianto"><i class='bx bxl-facebook'></i></a>                      
+                            <a href="https://www.instagram.com/augusta_strn/"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://github.com/augustasatrianto"><i class='bx bxl-github'></i></a>
                         </div>
                     </div>
                 </div>
